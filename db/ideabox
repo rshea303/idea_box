@@ -1,11 +1,12 @@
 ---
 ideas:
-- title: novel
-  description: two frogs attack a village of toads in the winter
-  rank: 7
-- title: invention
-  description: reinvent the wheel several times
-  rank: 2
-- title: songs
-  description: make a list of motivational songs for riding a bus
-  rank: 5
+- title: Novel
+  description: A 200 page exploration of the anger built up over thousands of years
+    between frogs and toads.
+  tag: writing
+- title: Poetry
+  description: A collection of poems focused on the life of a juggler
+  tag: writing
+- title: New Recipe
+  description: Create a pizza from scratch using a recipe found on a cereal box
+  tag: food

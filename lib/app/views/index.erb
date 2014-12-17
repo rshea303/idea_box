@@ -3,8 +3,12 @@
   <p>
     Your Idea:
   </p>
+  Title<br/>
   <input type='text' name='idea[title]'/><br/>
+  Description<br/>
   <textarea name='idea[description]'></textarea><br/>
+  Tag<br/>
+  <input type='text' name='idea[tag]'/><br/>
   <input type='submit' value='Submit Your Idea!'/>
 </form>
 
@@ -14,7 +18,8 @@
   <% ideas.each do |idea| %>
     <li>
       <%= idea.title %> (<%= idea.rank %>)<br/>
-      <%= idea.description %>
+      <%= idea.description %><br/>
+      Tag: <%= idea.tag %><br/>
       <form action='/<%= idea.id %>/like' method='POST' style="display: inline">
         <input type='submit' value="I love this idea!"/>
       </form><br/>
