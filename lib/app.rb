@@ -39,4 +39,8 @@ class IdeaBoxApp < Sinatra::Base
     redirect '/'
   end
 
+  get '/tagged' do
+    erb :tagged
+  end
+
 end
