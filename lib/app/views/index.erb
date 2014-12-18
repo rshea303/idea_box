@@ -1,4 +1,5 @@
 <h1>IdeaBox</h1>
+<div id='idea_entry'>
 <form action='/' method='POST'>
   <p>
     Your Idea:
@@ -9,8 +10,15 @@
   <textarea name='idea[description]'></textarea><br/>
   Tag<br/>
   <input type='text' name='idea[tag]'/><br/>
-  <input type='submit' value='Submit Your Idea!'/>
+  <input type='submit' value='Submit Your Idea!' class='btn btn-danger'/>
 </form>
+</div>
+
+<h3>Tagged Ideas</h3>
+  <form action='/tagged' method='GET' style="display: inline">
+    <input type='text' name='tag' placeholder='Enter Tag'>
+    <input type='submit' value="Search By Tag"/>
+  </form>
 
 <h3>Existing Ideas</h3>
 
@@ -31,9 +39,3 @@
     </li>
   <% end %>
 </ul>
-
-<h3>Tagged Ideas</h3>
-  <form action='/tagged' method='GET' style="display: inline">
-    <input type='text' name='tag'>
-    <input type='submit' value="Search By Tag"/>
-  </form>

@@ -10,3 +10,13 @@ ideas:
 - title: New Recipe
   description: Create a pizza from scratch using a recipe found on a cereal box
   tag: food
+- title: Movie Script
+  description: The inspiring story of a pig who grows up to be a piece of bacon!
+  tag: writing
+- title: Pizza Drone
+  description: A drone that not only delivers a pizza to your house, it also serves
+    slices of pizza to everyone in the room
+  tag: invention
+- title: Mouse Trap
+  description: Build a better mouse trap!
+  tag: invention

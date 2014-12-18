@@ -1,1 +1,10 @@
-<h2>Tagged Ideas</h2>
+<a href="/">Return To Home Page</a><h1>my <%= tag %> ideas</h1>
+
+<% ideas.each do |idea| %>
+  <% if idea.tag == tag %>
+    <hr>
+    <%= idea.title %><br/>
+    <%= idea.description %><br/>
+    </hr>
+    <% end %>
+<% end %>

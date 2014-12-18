@@ -40,7 +40,7 @@ class IdeaBoxApp < Sinatra::Base
   end
 
   get '/tagged' do
-    erb :tagged
+    tag = params[:tag]
+    erb :tagged, locals: {ideas: IdeaStore.all, tag: tag}
   end
-
 end
