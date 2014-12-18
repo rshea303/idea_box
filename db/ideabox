@@ -3,20 +3,26 @@ ideas:
 - title: Novel
   description: A 200 page exploration of the anger built up over thousands of years
     between frogs and toads.
+  rank: 3
   tag: writing
 - title: Poetry
   description: A collection of poems focused on the life of a juggler
+  rank: 2
   tag: writing
 - title: New Recipe
   description: Create a pizza from scratch using a recipe found on a cereal box
+  rank: 1
   tag: food
 - title: Movie Script
-  description: The inspiring story of a pig who grows up to be a piece of bacon!
-  tag: writing
+  description: The inspiring story of a pig who grows up to be a pound of bacon!
+  rank: 1
+  tag: none
 - title: Pizza Drone
   description: A drone that not only delivers a pizza to your house, it also serves
     slices of pizza to everyone in the room
+  rank: 3
   tag: invention
 - title: Mouse Trap
   description: Build a better mouse trap!
+  rank: 1
   tag: invention
